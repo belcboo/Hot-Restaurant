@@ -16,12 +16,12 @@ app.use(bodyParser.json());
 // Star Wars Characters (DATA)
 // =============================================================
 
-var data = require("./routes/data.js");
+var data = require("./routes/data.js")(app;
 
 // Routes
 // =============================================================
 
-var Routes = require("./routes/html.js");
+var Routes = require("./routes/html.js")(app;
 
 
 // Starts the server to begin listening
