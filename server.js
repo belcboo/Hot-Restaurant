@@ -21,7 +21,7 @@ var data = require("./routes/data.js")(app;
 // Routes
 // =============================================================
 
-var Routes = require("./routes/html.js")(app;
+var Routes = require("./routes/html.js")(app);
 
 
 // Starts the server to begin listening
